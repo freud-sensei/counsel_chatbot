@@ -19,8 +19,9 @@ This model is a fine-tuned version of [skt/kogpt2-base-v2](https://huggingface.c
 
 ## Model description
 
-한국어 심리상담 데이터를 이용해 Ko-GPT2를 fine-tuning하여 만든 심리상담 모형입니다.
-입력을 하실 땐 '질문: [실제 질문] 답변:'의 형태로 질문하시기 바랍니다.
+* 한국어 심리상담 데이터를 이용해 Ko-GPT2를 fine-tuning하여 만든 심리상담 모형입니다.
+* 입력을 하실 땐 '질문: [실제 질문] 답변:'의 형태로 질문하시기 바랍니다.
+* Colab의 메모리 한계 상 훈련을 장시간 할 수 없어, 모형이 엉뚱하거나 이상한 답을 할 수 있습니다. 귀엽게 봐 주세요.
 
 ## Training and evaluation data
 
@@ -38,11 +39,7 @@ The following hyperparameters were used during training:
 - seed: 42
 - optimizer: Adam with betas=(0.9,0.999) and epsilon=1e-08
 - lr_scheduler_type: linear
-- num_epochs: 3
-
-### Training results
-
-
+- num_epochs: 1
 
 ### Framework versions
 
