@@ -6,6 +6,8 @@ tags:
 model-index:
 - name: counsel_chatbot
   results: []
+widget:
+- text: "질문: 어제 잠을 거의 못 자서 피곤해. 답변:"
 ---
 
 <!-- This model card has been generated automatically according to the information the Trainer had access to. You
@@ -17,15 +19,13 @@ This model is a fine-tuned version of [skt/kogpt2-base-v2](https://huggingface.c
 
 ## Model description
 
-More information needed
-
-## Intended uses & limitations
-
-More information needed
+한국어 심리상담 데이터를 이용해 Ko-GPT2를 fine-tuning하여 만든 심리상담 모형입니다.
+입력을 하실 땐 '질문: [실제 질문] 답변:'의 형태로 질문하시기 바랍니다.
 
 ## Training and evaluation data
 
-More information needed
+AI Hub의 <감성 대화 말뭉치>를 사용했습니다.
+https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=86
 
 ## Training procedure
 
