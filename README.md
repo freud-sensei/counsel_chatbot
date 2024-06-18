@@ -22,6 +22,7 @@ This model is a fine-tuned version of [skt/kogpt2-base-v2](https://huggingface.c
 * 한국어 심리상담 데이터를 이용해 Ko-GPT2를 fine-tuning하여 만든 심리상담 모형입니다.
 * 입력을 하실 땐 '질문: [실제 질문] 답변:'의 형태로 질문하시기 바랍니다.
 * Colab의 메모리 한계 상 훈련을 장시간 할 수 없어, 모형이 엉뚱하거나 이상한 답을 할 수 있습니다. 귀엽게 봐 주세요.
+* HuggingFace Spaces는 일정 기간 이상 미사용 시 휴면 상태가 됩니다. 링크에 접속하셔도 사용이 불가능할 수도 있습니다.
 
 ## Training and evaluation data
 
